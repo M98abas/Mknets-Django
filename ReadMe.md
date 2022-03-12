@@ -18,7 +18,7 @@ django-admin startproject Name_of_project
 ./manage.py migrate
 ```
 
-## If you build your table in the DB you need to run this command to make the migration for you
+## If you build your table in the models you need to run this command to make the migration for you
 
 ```run
 ./manage.py makemigrations
